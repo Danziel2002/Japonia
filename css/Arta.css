@@ -1,0 +1,38 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image:url(../Imgs/bg.jpg);
+	background-size: cover;
+
+}
+
+img{
+	width: 500px;
+	height: 300px;
+	padding: 10px;
+}
+
+.pictura img{
+	
+	height: 450px;
+
+}
+
+h3{
+	padding: 10px;
+}
+
+.ike img{
+	height: 450px;
+}
+
+.Feng,.ike, .pictura, .origami{
+	margin: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	border: 1px solid grey;
+	background: rgba(255,255,255, 0.7);
+	font-size: 110%;
+}
+

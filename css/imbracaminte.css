@@ -1,0 +1,51 @@
+body{
+	
+	margin: 0px;
+	padding: 0px;
+	background-image:url(../Imgs/bg.jpg);
+	background-size: cover;
+
+}
+
+.gheisa{
+
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 1fr;
+	grid-template-rows: 0.5fr 0.5fr 0.5fr;
+
+}
+
+.generala, .cosmetice, .haine, .par{
+	background: rgba(255,255,255, 0.7);
+	text-align: center;
+	border-radius: 20px;
+	border: 1px grey solid;
+	margin: 1em;
+}
+
+.generala{
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.image img, .image{
+	border-radius: 20px;
+	grid-column: 2/3;
+	grid-row: 2/3;
+
+}
+
+.cosmetice{
+	grid-column: 3/4;
+	grid-row:2/3;
+}
+
+.haine{
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+
+.par{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
